@@ -1,4 +1,4 @@
-<h2 align="center">
+<!-- <h2 align="center">
   Wyvern Team Portfolio<br/>
   <a href="https://wyvernteam.com" target="_blank">Live Demo</a>
 </h2>
@@ -27,4 +27,4 @@ npm run dev
 ## Extra
 Feel free to post any suggestion / issue in the Issues tab
 
-If you like the project, please leave a ⭐ :) Thanks!
+If you like the project, please leave a ⭐ :) Thanks! -->

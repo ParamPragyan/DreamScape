@@ -434,7 +434,7 @@ function HomePage(props) {
           
 
 
-          <Contact/>
+          {/* <Contact/> */}
           <a
             href="https://discord.com"
             target="_blank"
@@ -450,6 +450,6 @@ function HomePage(props) {
 }
 import "./HomePage.scss";
 import Ticker from "../../components/Ticker/Ticker";
-import Contact from "../../components/Contact/Contact";
+// import Contact from "../../components/Contact/Contact";
 
 export default HomePage;

@@ -60,9 +60,19 @@ function Navbar(props) {
 								Terms and Pricing
 							</NavLink>
 						</li>
-                        <li className="nav-item">
-                            <a href="https://discord.com/invite/RqSrvBefHE" target='_blank' className="nav-links">Contact Us</a>
+						<li className="nav-item">
+							<NavLink
+								to="/contact"
+								className="nav-links"
+                                activeClassName="active-links"
+								onClick={click ? handleClick : null}
+							>
+								Contact Us
+							</NavLink>
 						</li>
+                        {/* <li className="nav-item">
+                            <a href="https://discord.com/invite/RqSrvBefHE" target='_blank' className="nav-links">Contact Us</a>
+						</li> */}
 					</ul>
 					<div className="nav-icon" onClick={handleClick}>
 						<i className={click ? "fa fa-times" : "fa fa-bars"}></i>

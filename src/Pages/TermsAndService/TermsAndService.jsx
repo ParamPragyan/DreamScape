@@ -16,7 +16,6 @@ function TermsAndService(props) {
   return (
     <>
       <div className="tos">
-        <div></div>
         <div
           className="tos__header padding flex items-center justify-center"
           id="particles"

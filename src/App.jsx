@@ -8,6 +8,7 @@ import { useState } from "react";
 import HomePage from "./Pages/HomePage/HomePage";
 import Portfolio from "./Pages/Portfolio/Portfolio";
 import TermsAndService from "./Pages/TermsAndService/TermsAndService";
+import ContactUs from "./Pages/ContactUs/ContactUs";
 import Footer from "./components/Footer/Footer";
 
 function App() {
@@ -34,6 +35,9 @@ function App() {
 						</Route>
 						<Route exact path="/tos">
 							<TermsAndService />
+						</Route>
+						<Route exact path="/contact">
+							<ContactUs />
 						</Route>
 					</Switch>
 					<Footer />

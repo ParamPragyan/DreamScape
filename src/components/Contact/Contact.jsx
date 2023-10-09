@@ -1,61 +1,65 @@
 import React from "react";
-import { AiFillMail } from 'react-icons/ai';
+import { AiFillMail } from "react-icons/ai";
 
 import "./Contact.css";
-// import Fade from "react-reveal/Fade";
-// import BGI from "../../../assets/bg1.jpg"
-// import BGI2 from "../../../assets/shape & scape (1).gif"
+
 const Contact = () => {
   return (
     <section>
-    
-    <div class="section-header">
-      <div class="container">
-        <h2>Contact Us</h2>
-        
-      </div>
-    </div>
-    
-    <div class="container">
-      <div class="row">
-        
-        <div class="contact-info">
-          <div class="contact-info-item">
-            <div class="contact-info-icon">
-              <i class="fas fa-home"></i>
-            </div>
-            
-            <div class="contact-info-content">
-              <h4>Address</h4>
-              <p>4671 hbchjb Road,<br/> jhbh, ubuy <br/>55060</p>
-            </div>
-          </div>
-          
-          <div class="contact-info-item">
-            <div class="contact-info-icon">
-              <i class="fas fa-phone"></i>
-            </div>
-            
-            <div class="contact-info-content">
-              <h4>Phone</h4>
-              <p>571-457-2321</p>
-            </div>
-          </div>
-          
-          <div class="contact-info-item">
-            <div class="contact-info-icon">
-              <i class="fas fa-envelope"></i>
-            </div>
-            
-            <div class="contact-info-content">
-              <h4>Email</h4>
-             <p>xxxxxx@gmail.com</p>
+      <div className="contact_container flex items-center justify-center">
+        <div className="left">
+          <div>
+            <div>
+              <h1>Address</h1>
             </div>
           </div>
         </div>
-        
-        <div class="contact-form">
-          <form action="" id="contact-form">
+        <div className="right">
+          <form
+            action=""
+            id="contact-form"
+            className="flex items-center justify-center flex-col gap-11  border-[#ec3737] w-fit px-20 py-11  bg-[#1d1d1d79] rounded-3xl "
+          >
+            <input
+              placeholder="Name"
+              type="text"
+              required="true"
+              name=""
+              className=" a w-[40rem] bg-black border-2 border-[#ec3737] rounded-full text-4xl text-[#fff] px-11 py-8"
+            />
+
+            <input
+              placeholder="Email"
+              type="email"
+              required="true"
+              name=""
+              className=" a w-[40rem] bg-black border-2 border-[#ec3737] rounded-full text-4xl text-[#fff] px-11 py-8"
+            />
+
+            <textarea
+              placeholder="Type your message here"
+              required="true"
+              name=""
+              className=" a w-[40rem] h-[20vh] bg-black border-2 border-[#ec3737] rounded-3xl text-4xl text-[#fff] px-11 py-8"
+            ></textarea>
+
+            <input
+              type="submit"
+              value="Send"
+              name=""
+              className=" a w-[40rem] border-2 border-[#ec3737] bg-[#ec3737] rounded-full text-4xl text-[#fff] px-11 py-8"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Contact;
+
+{
+  /* <form action="" id="contact-form">
             <h2>Send Message</h2>
             <div class="input-box">
               <input type="text" required="true" name=""/>
@@ -75,13 +79,5 @@ const Contact = () => {
             <div class="input-box">
               <input type="submit" value="Send" name=""/>
             </div>
-          </form>
-        </div>
-        
-      </div>
-    </div>
-  </section>
-  );
-};
-
-export default Contact;
+          </form> */
+}

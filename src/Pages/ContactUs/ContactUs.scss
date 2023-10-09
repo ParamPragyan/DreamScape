@@ -1,5 +1,5 @@
-.tos {
-	text-align: center;
+.con{
+    text-align: center;
 	&__header {
 		position: relative;
 		display: flex;
@@ -20,8 +20,7 @@
 		}
 
 	}
-
-	&__body {
+    &__body {
 		// height: 72vh;
 		padding-top: 5rem;
 		padding-bottom: 40rem;
@@ -35,41 +34,4 @@
 
        
 	}
-}
-.pp{
-	padding-top: 5rem;
-
-	background-image: url("../../assets/bgfooter.svg");
-		background-repeat: no-repeat;
-		background-position: bottom;
-		background-size: contain;
-		padding-bottom: 40rem;
-
-}
-.bold{
-    font-weight: 400;
-    font-size: 3.5;
-}
-
-.bold-head{
-    font-weight: 500;
-    font-size: 4rem;
-    margin-bottom: 2rem;
-    line-height: 8rem;
-}
-
-
-
-@media screen and (max-width: 600px){
-    .tos{
-
-        &__body{
-            padding-bottom: 20rem;
-
-            .document{
-                width: 98%;
-            }
-        }
-
-    }
 }
