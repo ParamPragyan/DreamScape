@@ -6,11 +6,16 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <section>
-      <div className="contact_container flex items-center justify-center">
-        <div className="left">
+      <div className="contact_container flex items-center justify-center pt-[10rem] flex-wrap space-x-[45rem]">
+        <div className="left
+         ">
           <div>
-            <div>
-              <h1>Address</h1>
+            <div className="px-11 w-fit">
+              <h1 className="text-[#ec3737] tracking-wide contact_heading text-[10rem] text-left  font-[900] flex flex-col ">
+                <span>Be among the first</span>
+                <span>to experience</span>
+                <span>the future.</span>
+              </h1>
             </div>
           </div>
         </div>
@@ -18,14 +23,14 @@ const Contact = () => {
           <form
             action=""
             id="contact-form"
-            className="flex items-center justify-center flex-col gap-11  border-[#ec3737] w-fit px-20 py-11  bg-[#1d1d1d79] rounded-3xl "
+            className="flex items-center justify-center flex-col gap-11  border-[#ec3737] w-fit py-11  bg-[#1d1d1d79] rounded-3xl "
           >
             <input
               placeholder="Name"
               type="text"
               required="true"
               name=""
-              className=" a w-[40rem] bg-black border-2 border-[#ec3737] rounded-full text-4xl text-[#fff] px-11 py-8"
+              className=" a w-[40rem] bg-black border-2 border-[#ec3737] rounded-3xl text-4xl text-[#fff] px-11 py-8"
             />
 
             <input
@@ -33,7 +38,7 @@ const Contact = () => {
               type="email"
               required="true"
               name=""
-              className=" a w-[40rem] bg-black border-2 border-[#ec3737] rounded-full text-4xl text-[#fff] px-11 py-8"
+              className=" a w-[40rem] bg-black border-2 border-[#ec3737] rounded-3xl text-4xl text-[#fff] px-11 py-8"
             />
 
             <textarea
@@ -47,7 +52,7 @@ const Contact = () => {
               type="submit"
               value="Send"
               name=""
-              className=" a w-[40rem] border-2 border-[#ec3737] bg-[#ec3737] rounded-full text-4xl text-[#fff] px-11 py-8"
+              className=" a w-[40rem] border-2 border-[#ec3737] bg-[#ec3737] rounded-3xl text-4xl text-[#fff] px-11 py-8"
             />
           </form>
         </div>

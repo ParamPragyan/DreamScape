@@ -25,7 +25,7 @@ function Portfolio(props) {
 		<>
 			<div className="portfolio">
 				<div className="portfolio__header padding" id="particles">
-					<h1 className="portfolio__header__heading">PORTFOLIO</h1>
+					<h1 className="portfolio__header__heading">STUDIO PORTFOLIO</h1>
 
 					<div className="category-menu">
 						<div
@@ -34,7 +34,7 @@ function Portfolio(props) {
 							}`}
 							onClick={() => setTab("design")}
 						>
-							Design
+							Equipments
 						</div>
 						<div
 							className={`btn-category ${
@@ -42,9 +42,9 @@ function Portfolio(props) {
 							}`}
 							onClick={() => setTab("discordbots")}
 						>
-							Discord Bots
+							Locations
 						</div>
-						<div
+						{/* <div
 							className={`btn-category ${
 								tab === "minecraft" ? "btn-active" : ""
 							}`}
@@ -59,7 +59,7 @@ function Portfolio(props) {
 							onClick={() => setTab("website")}
 						>
 							Website
-						</div>
+						</div> */}
 					</div>
 				</div>
 

@@ -2,6 +2,7 @@ import React from "react";
 import "./HomePage.scss";
 // SwiperJs for Carousel
 import { Swiper, SwiperSlide } from "swiper/react";
+import { NavLink }  from "react-router-dom";
 
 // Import Swiper styles
 import "swiper/css";
@@ -21,6 +22,10 @@ import bgWebM from "../../assets/ezgif.com-gif-maker.webm";
 import AskedQuestions from "../../components/QuestionPannel/AskedQuestions";
 
 function HomePage(props) {
+
+  const [click, setClick] = React.useState(false);
+
+	const handleClick = () => setClick(!click);
   return (
     <>
       <main className="homepage">
@@ -435,14 +440,23 @@ function HomePage(props) {
 
 
           {/* <Contact/> */}
-          <a
+          <NavLink
+								to="/contact"
+								className="btn btn-primary"
+                                activeClassName="active-links"
+								onClick={click ? handleClick : null}
+							>
+								Contact Us
+							</NavLink>
+          
+          {/* <a
             href="https://discord.com"
             target="_blank"
             className="btn btn-primary"
           >
             
             Contact Us
-          </a>
+          </a> */}
         </section>
       </main>
     </>

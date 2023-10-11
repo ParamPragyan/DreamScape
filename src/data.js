@@ -6,15 +6,15 @@ import design2 from "../src/assets/portfolio/design/design2.png";
 import design3 from "../src/assets/portfolio/design/design2.png";
 
  const designData = [
-	{ img: design1, heading: "This is the Design 1" },
-	{ img: design2, heading: "This is the Design 2" },
-	{ img: design3, heading: "This is the Design 3" },
-    { img: design1, heading: "This is the Design 4" },
-	{ img: design2, heading: "This is the Design 5" },
-	{ img: design3, heading: "This is the Design 6" },
-    { img: design1, heading: "This is the Design 7" },
-	{ img: design2, heading: "This is the Design 8" },
-	{ img: design3, heading: "This is the Design 9" },
+	{ img: design1, heading: "Equipment 1" },
+	{ img: design2, heading: "Equipment 2" },
+	{ img: design3, heading: "Equipment 3" },
+    { img: design1, heading: "Equipment 4" },
+	{ img: design2, heading: "Equipment 5" },
+	{ img: design3, heading: "Equipment 6" },
+    { img: design1, heading: "Equipment 7" },
+	{ img: design2, heading: "Equipment 8" },
+	{ img: design3, heading: "Equipment 9" },
 ];
 
 //Discord Bots Section Images and Data
@@ -23,15 +23,15 @@ import bot2 from "../src/assets/portfolio/bot/bot2.png";
 import bot3 from "../src/assets/portfolio/bot/bot2.png";
 
 const DiscordBotsData = [
-	{ img: bot1, heading: "This is the bot 1" },
-	{ img: bot2, heading: "This is the bot 2" },
-	{ img: bot3, heading: "This is the bot 3" },
-    { img: bot1, heading: "This is the bot 4" },
-	{ img: bot2, heading: "This is the bot 5" },
-	{ img: bot3, heading: "This is the bot 6" },
-    { img: bot1, heading: "This is the bot 7" },
-	{ img: bot2, heading: "This is the bot 8" },
-	{ img: bot3, heading: "This is the bot 9" },
+	{ img: bot1, heading: "Location 1" },
+	{ img: bot2, heading: "Location 2" },
+	{ img: bot3, heading: "Location 3" },
+    { img: bot1, heading: "Location 4" },
+	{ img: bot2, heading: "Location 5" },
+	{ img: bot3, heading: "Location 6" },
+    { img: bot1, heading: "Location 7" },
+	{ img: bot2, heading: "Location 8" },
+	{ img: bot3, heading: "Location 9" },
 ];
 
 

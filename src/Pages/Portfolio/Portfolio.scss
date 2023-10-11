@@ -13,13 +13,14 @@
         border-bottom-left-radius: 50em 10%;
         border-bottom-right-radius: 50em 10%;
         overflow: hidden;
-        min-height: 35vh;
+        min-height: 40vh;
 
         
         &__heading{
             font-size: 3.2rem;
             font-weight: 600;
             letter-spacing: .7rem;
+            padding-top: 5rem;
         }
 
         &__description{
