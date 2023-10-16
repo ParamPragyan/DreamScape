@@ -70,10 +70,21 @@ function Navbar(props) {
 								Contact Us
 							</NavLink>
 						</li>
+						<li className="nav-item">
+							<NavLink
+								to="/signup"
+								className="nav-links"
+                                activeClassName="active-links"
+								onClick={click ? handleClick : null}
+							>
+								SignUp
+							</NavLink>
+						</li>
                         {/* <li className="nav-item">
                             <a href="https://discord.com/invite/RqSrvBefHE" target='_blank' className="nav-links">Contact Us</a>
 						</li> */}
 					</ul>
+					
 					<div className="nav-icon" onClick={handleClick}>
 						<i className={click ? "fa fa-times" : "fa fa-bars"}></i>
 					</div>

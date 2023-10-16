@@ -446,7 +446,7 @@ function HomePage(props) {
                                 activeClassName="active-links"
 								onClick={click ? handleClick : null}
 							>
-								Contact Us
+								Book Now
 							</NavLink>
           
           {/* <a

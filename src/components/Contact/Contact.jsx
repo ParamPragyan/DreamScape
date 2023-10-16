@@ -23,7 +23,7 @@ const Contact = () => {
           <form
             action=""
             id="contact-form"
-            className="flex items-center justify-center flex-col gap-11  border-[#ec3737] w-fit py-11  bg-[#1d1d1d79] rounded-3xl "
+            className="flex items-center justify-center flex-col gap-11 px-11 border-[#ec3737] w-fit py-11  bg-[#1d1d1d79] rounded-3xl "
           >
             <input
               placeholder="Name"

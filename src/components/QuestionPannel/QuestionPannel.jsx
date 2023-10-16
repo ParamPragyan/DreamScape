@@ -24,7 +24,7 @@ const QuestionPanel = ({ question, answer }) => {
           src={down}
         ></img>
       </div>
-      {showAnswer && <p className="text-3xl cursor-pointer ">{answer}</p>}
+      {showAnswer && <p className="text-3xl py-11 px-8 cursor-pointer ">{answer}</p>}
     </div>
   );
 };

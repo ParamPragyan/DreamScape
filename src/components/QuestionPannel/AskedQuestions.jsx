@@ -3,32 +3,32 @@ import QuestionPanel from "./QuestionPannel";
 
 const questionBank = [
   {
-    question: "How do you handle security and privacy?",
+    question: "What is DreamScape Studio, and how does it benefit content creators?",
     answer:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur incidunt perferendis itaque quibusdam beatae fugit dicta officia ipsamnecessitatibus quis",
   },
   {
-    question: "How do you handle security and privacy?",
+    question: "What equipment and facilities do you provide in your studios?",
     answer:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur incidunt perferendis itaque quibusdam beatae fugit dicta officia ipsamnecessitatibus quis",
   },
   {
-    question: "How do you handle security and privacy?",
+    question: "Can I book studio time for specific hours, or do I have to book a full day?",
     answer:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur incidunt perferendis itaque quibusdam beatae fugit dicta officia ipsamnecessitatibus quis",
   },
   {
-    question: "How do you handle security and privacy?",
+    question: "What is the cancellation policy for bookings? Can I get a refund if I need to cancel?",
     answer:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur incidunt perferendis itaque quibusdam beatae fugit dicta officia ipsamnecessitatibus quis",
   },
   {
-    question: "How do you handle security and privacy?",
+    question: "Do you offer any special discounts or membership programs for regular users?",
     answer:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur incidunt perferendis itaque quibusdam beatae fugit dicta officia ipsamnecessitatibus quis",
   },
   {
-    question: "How do you handle security and privacy?",
+    question: "Is there a limit to the number of people I can bring into the studio with me?",
     answer:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur incidunt perferendis itaque quibusdam beatae fugit dicta officia ipsamnecessitatibus quis",
   },

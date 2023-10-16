@@ -10,6 +10,7 @@ import Portfolio from "./Pages/Portfolio/Portfolio";
 import TermsAndService from "./Pages/TermsAndService/TermsAndService";
 import ContactUs from "./Pages/ContactUs/ContactUs";
 import Footer from "./components/Footer/Footer";
+import SignUp from "./Pages/Auth/Signup";
 
 function App() {
 	const [loading, setLoading] = useState(true);
@@ -39,6 +40,10 @@ function App() {
 						<Route exact path="/contact">
 							<ContactUs />
 						</Route>
+						<Route exact path="/signup">
+							<SignUp/>
+						</Route>
+
 					</Switch>
 					<Footer />
 				</div>
