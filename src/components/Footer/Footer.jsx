@@ -7,7 +7,7 @@ function Footer(props) {
             
 			<section className="footer">
 				<div className="footer__socials">
-					<a href="https://twitter.com" target='_blank'>
+					<a href="/" target='_blank'>
 						<img
 							src="./ln.png"
 							alt=""

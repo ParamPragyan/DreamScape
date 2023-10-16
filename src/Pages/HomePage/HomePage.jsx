@@ -311,7 +311,7 @@ function HomePage(props) {
                     printer took a galley of type and scrambled it to form a
                     great text body.
                   </p>
-                  <h2 className="reviews__carousel__item__name">Jason Mark</h2>
+                  <h2 className="reviews__carousel__item__name">Susa</h2>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
@@ -350,7 +350,7 @@ function HomePage(props) {
                     standard dummy text ever since the 1500s, when an unknown
                     printer took a galley of type and scrambled it to
                   </p>
-                  <h2 className="reviews__carousel__item__name">Jason Mark</h2>
+                  <h2 className="reviews__carousel__item__name">Pritam</h2>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
