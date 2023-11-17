@@ -11,7 +11,7 @@ const Pricing = () => {
           <p className="font-bold">Hourly Plan</p>
         </div>
         <p class="price">
-          299/-
+          499/-
           <sub  >/hour</sub>
         </p>
         <ul class="feature">
@@ -56,7 +56,7 @@ const Pricing = () => {
           <p>Daily Plan</p>
         </div>
         <p class="price">
-          1999/-
+          2999/-
           <sub>Day</sub>
         </p>
         <ul class="feature">
@@ -90,7 +90,7 @@ const Pricing = () => {
           </li>
           <li className="flex">
            <img className="w-[3rem]" src={check} alt="" />
-            <strong>meals(2 times)</strong>
+           <strong>Free beverages</strong>
           </li>
         </ul>
         <button class="cta-btn">SELECT</button>
@@ -101,7 +101,7 @@ const Pricing = () => {
           <p>Monthly Plan</p>
         </div>
         <p class="price">
-          29,999/-
+          49,999/-
           <sub>/month</sub>
         </p>
         <ul class="feature">
@@ -136,7 +136,7 @@ const Pricing = () => {
           </li>
           <li className="flex">
            <img className="w-[3rem]" src={check} alt="" />
-            <strong>2 meals a day</strong>
+           <strong>Free beverages</strong>
           </li>
         </ul>
         <button class="cta-btn">SELECT</button>
